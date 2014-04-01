@@ -2,6 +2,11 @@
 
 Notes on steroids
 
+## Pages
+
+- [RESTful API](docs/API.md)
+- [Screens](docs/Screens.md)
+
 ## Dimensions
 
 - user: email, password, image
