@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "http-server": "*"
+    "http-server": "*",
+    "bower": "*"
   }
 }
