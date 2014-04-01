@@ -3,3 +3,4 @@ rest/node_modules
 .idea
 app/vendor
 .DS_Store
+*.swp
