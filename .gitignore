@@ -1,1 +1,4 @@
 node_modules
+rest/node_modules
+.idea
+app/vendor

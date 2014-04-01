@@ -1,0 +1,26 @@
+<h1>List of projects</h1>
+
+<ul>
+  <li ng-repeat="project in list">
+    <a ng-href="#projects/{{ project.id }}">
+      {{ project.name }}
+    </a>
+    <i class="fa fa-trash-o"
+       ng-click="remove(project.id)"></i>
+  </li>
+</ul>
+
+<h1>Add Project</h1>
+
+<form>
+
+  <input placeholder="Enter name" ng-model="newProject.name"/>
+
+  <button
+    class="btn btn-primary"
+    ng-click="create()"
+    ng-keypress="{}">
+    Add
+  </button>
+
+</form>
