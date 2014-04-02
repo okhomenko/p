@@ -2,11 +2,11 @@
 
 <ul>
   <li ng-repeat="project in list">
-    <a ng-href="#projects/{{ project.id }}">
+    <a ng-href="#projects/{{ project._id }}">
       {{ project.name }}
     </a>
     <i class="fa fa-trash-o"
-       ng-click="remove(project.id)"></i>
+       ng-click="remove(project._id)"></i>
   </li>
 </ul>
 

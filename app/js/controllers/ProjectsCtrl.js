@@ -27,10 +27,6 @@
       project.$save(success, error);
     };
 
-    $scope.edit = function (index) {
-
-    };
-
     $scope.remove = function (index) {
 
       function success() {

@@ -14,7 +14,7 @@
     $scope.save = function () {
       var id, data;
 
-      id = $scope.original.id;
+      id = $scope.original._id;
       data = $scope.project;
 
       ProjectsSvc.update({id: id}, data, successSaving);
@@ -36,7 +36,7 @@
     function refresh() {
       var id;
 
-      id = parseInt($routeParams.id, 10);
+      id = $routeParams.id;
       $scope.original = ProjectsSvc.get({id: id}, success);
     }
 
